@@ -56,7 +56,7 @@ class Main:
                     if dragger.dragging: 
                         dragger.update_mouse(event.pos)
                         game.show_background(screen)
-                        game.show_pie`ces(screen)
+                        game.show_pieces(screen)
                         dragger.update_blit(screen)
 
                 # click release 
