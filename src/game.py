@@ -26,7 +26,7 @@ class Game:
                 pygame.draw.rect(surface, colour, rect)
                 
     def show_pieces(self, surface): 
-       for row in range(ROWS): 
+       for row in range(ROWS):                             
           for col in range(COLS): 
              # piece?
              if self.board.squares[row][col].has_piece():
